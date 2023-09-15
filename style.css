@@ -1,0 +1,87 @@
+#image {
+ height: 100vh;
+ width: 100%;
+}
+
+.heading {
+    position: absolute;
+    color: #FF5733;
+    font-size: 80px;
+    bottom: 50%;
+    left: 35%;
+}
+
+span {
+    color: darkcyan;
+    text-decoration: underline overline #FF3028;
+}
+
+.paragraph{
+    position: absolute;
+    color: purple;
+    width: 150px;
+    font-weight: bold;
+    bottom: 47%;
+    left: 35%;
+    transition:  all 1s ease-out;
+}
+
+.paragraph:hover {
+    width: 250px;
+    bottom: 50%;
+}
+
+img.aman-image{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+p {
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+}
+
+h1 , h2 {
+    display: block;
+    color:aqua;
+    font-family: 'PT Serif', serif;
+    text-align: center;   
+}
+
+hr {
+    border:none; /* Remove the default line */
+    height: 4px; /* Set the height of the customized line */
+    background-color: #FF5733; /* Set the line's color */
+    margin: 20px;
+}
+
+.skills {
+    display: flex;
+}
+
+#skills2 {
+    display: inline;
+    width: 300px;
+    height: 300px;
+    border-radius: 40%;
+    margin-left: 300px;
+}
+
+.skill1 > img {
+    margin-left: 30px;
+}
+
+@media (max-width: 1000px) {
+
+    #skills2 {
+        display: inline;
+        width: 300px;
+        height: 300px;
+        border-radius: 40%;
+        margin-left: 0px;
+    }
+
+}
+
+
